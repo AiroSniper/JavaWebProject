@@ -139,42 +139,30 @@
 												</div>
 												<div class="col-12 col-sm-6">
 													<div class="form-group">
-														<%
-														if (request.getSession(false).getAttribute("nom") != null) {
-														%>
+														
 														<label for="nom">Nom</label> <input type="text"
 															class="form-control" id="nom" placeholder="Nom"
 															value="<%=request.getSession(false).getAttribute("nom")%>" />
-														<%
-														}
-														%>
+														
 													</div>
 												</div>
 												<div class="col-12 col-sm-6">
 													<div class="form-group">
-														<%
-														if (request.getSession(false).getAttribute("email") != null) {
-														%>
+														
 														<label for="email">E-mail</label> <input type="email"
 															class="form-control" id="email" placeholder="Email"
 															value="<%=request.getSession(false).getAttribute("email")%>" />
-														<%
-														}
-														%>
+														
 													</div>
 
 												</div>
 												<div class="col-12 col-sm-6">
 													<div class="form-group">
-														<%
-														if (request.getSession(false).getAttribute("prenom") != null) {
-														%>
+														
 														<label for="prenom">Prenom</label> <input type="text"
 															class="form-control" id="prenom" placeholder="Prenom"
 															value="<%=request.getSession(false).getAttribute("prenom")%>" />
-														<%
-														}
-														%>
+														
 													</div>
 												</div>
 												<div class="col-12" id="alert1" style="height: 60px"></div>
